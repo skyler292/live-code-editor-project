@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background-color: pink;
+}
+
+::placeholder { 
+  color: yellow;
+}
+
+textarea {
+  width: 32%;
+  float: top;
+  min-height: 250px;
+  overflow: scroll;
+  margin: auto;
+  background-color: teal;
+  outline: ridge;
+  font-family: Courier, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+iframe {
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: 27em;
+  background-color: white;
+}
